@@ -1,0 +1,43 @@
+{
+  "name": "swu-symbols",
+  "version": "1.0.0",
+  "description": "Original-artwork Star Wars Unlimited aspect symbols in one color WOFF2 font",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "author": "Alessio Fanelli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FanaHOVA/swu-symbols.git"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "scripts/build-font.py",
+    "requirements.txt",
+    "codepoints.json",
+    "aspects.json",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "exports": {
+    "./css": "./dist/swu-symbols.css",
+    "./codepoints": "./dist/swu-symbols.json",
+    "./font": "./dist/swu-symbols.woff2",
+    "./ttf": "./dist/swu-symbols.ttf"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/build.check.mjs",
+    "prepack": "npm run build && npm test",
+    "build:font": "python3 scripts/build-font.py",
+    "test:font": "python3 scripts/font.check.py"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "star-wars-unlimited",
+    "swu",
+    "icons",
+    "aspects"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "vigilance": {
+    "src": "https://cdn.starwarsunlimited.com//SWH_Aspects_Vigilance_0519102eb9.png",
+    "width": 800,
+    "height": 806
+  },
+  "command": {
+    "src": "https://cdn.starwarsunlimited.com//SWH_Aspects_Command_79e2808348.png",
+    "width": 800,
+    "height": 806
+  },
+  "aggression": {
+    "src": "https://cdn.starwarsunlimited.com//SWH_Aspects_Aggression_ceca8f7d7c.png",
+    "width": 800,
+    "height": 806
+  },
+  "cunning": {
+    "src": "https://cdn.starwarsunlimited.com//SWH_Aspects_Cunning_91fedef0ce.png",
+    "width": 800,
+    "height": 806
+  },
+  "villainy": {
+    "src": "https://cdn.starwarsunlimited.com//SWH_Aspects_Villainy_3e06e5ffdb.png",
+    "width": 800,
+    "height": 806
+  },
+  "heroism": {
+    "src": "https://cdn.starwarsunlimited.com//SWH_Aspects_Heroism_fd98140fb6.png",
+    "width": 800,
+    "height": 806
+  }
+}

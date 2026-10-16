@@ -1,0 +1,9 @@
+/* MIT CSS. Embedded artwork is NOT MIT/OFL licensed; see NOTICE.md. */
+@font-face{font-family:"SWU Symbols Color";src:url("swu-symbols.woff2") format("woff2");font-display:block;font-style:normal;font-weight:400;unicode-range:U+E900-E905}
+.swu-symbol{display:inline-block;width:1em;height:1em;font-family:"SWU Symbols Color";font-style:normal;font-weight:400;font-synthesis:none;line-height:1;vertical-align:middle;flex-shrink:0}
+.swu-vigilance::before{content:"\e900"}
+.swu-command::before{content:"\e901"}
+.swu-aggression::before{content:"\e902"}
+.swu-cunning::before{content:"\e903"}
+.swu-heroism::before{content:"\e904"}
+.swu-villainy::before{content:"\e905"}
